@@ -1,5 +1,11 @@
+import Header from '../../components/header';
 const PostNotes = () => {
-  return <div>PostNotes</div>;
+  return (
+    <>
+      <Header />
+      <div>PostNotes</div>
+    </>
+  );
 };
 
 export default PostNotes;

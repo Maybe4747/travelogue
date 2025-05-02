@@ -7,7 +7,7 @@ import {
   SyncOutlined,
 } from '@ant-design/icons';
 import { Space } from 'antd';
-
+import Header from '@/components/header';
 const MainView: React.FC = () => {
   return (
     <>
@@ -22,7 +22,7 @@ const MainView: React.FC = () => {
     <SmileOutlined rotate={180} />
     <LoadingOutlined />
   </Space>
-
+<Header />
     </>
   )
 };

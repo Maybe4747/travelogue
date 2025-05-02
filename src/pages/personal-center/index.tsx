@@ -1,5 +1,12 @@
+import Header from '../../components/header';
+
 const PersonalCenter = () => {
-  return <div>PersonalCenter</div>;
+  return (
+    <>
+      <Header />
+      <div>PersonalCenter</div>
+    </>
+  );
 };
 
 export default PersonalCenter;
